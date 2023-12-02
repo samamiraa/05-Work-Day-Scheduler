@@ -35,6 +35,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 https://learn.jquery.com/using-jquery-core/document-ready/
+https://www.w3schools.com/jquery/jquery_traversing_siblings.asp
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_siblings
+https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery
 
 ## License
 
