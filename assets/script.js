@@ -34,7 +34,11 @@ $(function () {
     $('.time-block').each(function() {
       var timeBlockHour = parseInt($(this).attr('id').split('-')[1]);
 
-      console.log(timeBlockHour);
+      if (timeBlockHour < currentHour) {
+        $(this).addClass('past');
+        $(this).removeClass('present');
+        $(this).removeClass('future');
+      }
     });
   };
 
