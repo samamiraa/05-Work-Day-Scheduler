@@ -42,6 +42,10 @@ $(function () {
         $(this).addClass('present');
         $(this).removeClass('past');
         $(this).removeClass('future');
+      } else {
+        $(this).addClass('future');
+        $(this).removeClass('present');
+        $(this).removeClass('past');
       };
 
     });
