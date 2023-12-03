@@ -32,7 +32,7 @@ $(function () {
     var currentHour = hour.format('HH');
 
     $('.time-block').each(function() {
-      var timeBlockHour = parseInt($(this).attr('id').split(-)[9]);
+      var timeBlockHour = parseInt($(this).attr('id').split('-')[9]);
 
       console.log(timeBlockHour);
     });
