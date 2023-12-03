@@ -3,7 +3,6 @@
 // in the html.
 $(document).ready(function() { 
   console.log("isready");
-
 var saveDescription = $('.saveBtn');
 
 
@@ -53,7 +52,9 @@ $(function () {
 
   checkTime();
 
-
+  setInterval(function() {
+    location.reload();
+  }, 60000);
 
   //
   // TODO: Add code to get any user input that was saved in localStorage and set
@@ -65,7 +66,7 @@ $(function () {
   // TODO: Add code to display the current date in the header of the page.
   var currentDay = dayjs();
   var dayWeek = currentDay.format('dddd');
-  var currentTime = currentDay.format('HH:mm:ss');
+  var currentTime = currentDay.format('HH:mm');
   $('#currentDay').text(dayWeek + ", " + currentDay.format('MMM D, YYYY') + " " + currentTime);
 });
 });
