@@ -38,7 +38,12 @@ $(function () {
         $(this).addClass('past');
         $(this).removeClass('present');
         $(this).removeClass('future');
-      }
+      } else if (timeBlockHour == currentHour) {
+        $(this).addClass('present');
+        $(this).removeClass('past');
+        $(this).removeClass('future');
+      };
+
     });
   };
 
