@@ -3,7 +3,8 @@
 ## Description
 
 Live URL 👇🏼<br>
-
+https://samamiraa.github.io/05-Work-Day-Scheduler/ <br>
+<br>
 My motivation was simply to solidify my understanding of Jquery and to practice my Javascript. I build this project to also practice using dayjs. I want to fully understand everything that I am coding. I learned that in order to be good at jquery, you must have a solid understanding of Javascript.
 
 ## Installation
@@ -30,7 +31,7 @@ The day planner is set to reload the page every minute to keep the time at the t
 <br>
 
 ## Credits
-I referred to class material as much as possible. Thank you to my tutor Andrew for helping me with my issues regarding getting the values from local storage. Thank you to Morgan, the askBCS learning assistannt for assisting with splitting the HOUR ID attributes as I was stumped.
+I referred to class material as much as possible. Thank you to my tutor Andrew for helping me with my issues regarding getting the values from local storage. Thank you to Morgan, the askBCS learning assistant for assisting with splitting the HOUR ID attributes as I was stumped.
 
 https://learn.jquery.com/using-jquery-core/document-ready/
 https://www.w3schools.com/jquery/jquery_traversing_siblings.asp
